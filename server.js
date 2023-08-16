@@ -30,7 +30,7 @@ connection.once("open", ()=>{
 
 const studentRouter = require("./routes/students");
 
-app.use("/", studentRouter);
+app.use("/student", studentRouter);
 
 
 app.listen(PORT, () =>{
